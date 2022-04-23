@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    meta(charset="UTF-8")
+    title Object Searcher
+
+
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous")
+    script(src="/archivo.js" defer)
+    style="body {padding-top: 50px;}" 
+    style="h1 {color: blue;}"
+</head>
+<body class="container">
+    <header>
+        nav(class="navbar navbar-expand-lg navbar-light bg-light")
+            a(class="navbar-brand" href="/") 
+                Products Administrator
+
+                div(class="collapse navbar-collapse" id="navbarSupportedContent")
+                    ul(class="navbar-nav mr-auto")
+                        li(class="nav-item active")
+                        
+                        a(class="nav-link" href="/") Add New Products
+                        span(class="sr-only">(current))
+                                    
+                
+                                li(class="nav-item")
+                        a(class="nav-link" href="/about") Check all the products
+                        span(class="sr-only">(current))
+        
+
+
+    </header>
+    
+    <main>
+        <div class="jumbotron"> 
+            <h1> Add new Product </h1>
+            h5 Fill in all the square to add a new product
+
+                form(
+                    action="/" 
+                    method="post"
+                )
+                    label Add Object:
+                    input(
+                        type="text" 
+                        name="title" 
+                        id="object_searched"
+                    )
+
+                    br
+                
+                    label Add Price:
+                    input(
+                        type="text" 
+                        name="price" 
+                        id="price_searched"
+                    )    
+                    
+                    
+                    br
+                    input(
+                        type="submit" 
+                        value="Submit" 
+                        id="submite" 
+                    )   
+        </div>  
+    </main>    
+        
+        
+    
+
+    <footer>
+        p(class="text-center text-muted") © Diego Dimitroff Petcoff 2022 Nerver Stop
+        script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous")
+        script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous")
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous")
+
+
