@@ -1,0 +1,2 @@
+Analisis de los motores de plantillas:
+Luego del trabajo con los tres diferentes motores de plantillas, encuentro mucho mas util trabajar con EJS. En principio este no regiere codificar engine y la sintaxis termina por ser la misma que js agregando solo algunas particularidades. Si bien a primera vista pense que PUG seria mucho mejor y facil, encontre con que tener que tener en cuenta la identacion como elemento principal del trabajo, y que la misma defina la imporancia de la funcionalidad del trabajo termina por ser mucho mas engorro y dificultoso.
